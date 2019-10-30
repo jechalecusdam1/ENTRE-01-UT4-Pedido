@@ -32,9 +32,9 @@ public class TestPedido
      * Muestra la información de los dos pedidos (ver enunciado)
      */
     public void mostrarPedidos() {
-        System.out.println("Pedido 1");
+        System.out.println("Pedido 1 ");
         System.out.println(pedido1.toString());
-        System.out.println("Pedido 2");
+        System.out.println("Pedido 2 ");
         System.out.println(pedido2.toString());
         if  (pedido1.masAntiguoQue(pedido2))  {
             System.out.println ("El pedido 1 se ha realizado antes que el pedido 2");
