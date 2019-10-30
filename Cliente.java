@@ -52,8 +52,12 @@ public class Cliente
      * representación textual del cliente
      */
     public String toString() {
-         
-          
+        String queNombre = "NOMBRE:";
+        String dirección = "DIRECCIÓN:";
+        String queCiudad = "CIUDAD:";
+        String queProvincia = "PROVINCIA:";
+        String queCliente = String.format( "%10s%-10s\n%10s%-10s\n%10s%-10s\n%10s%-10s", queNombre, nombre, dirección, direccion, queCiudad,ciudad, queProvincia, provincia);     
+        return queCliente;  
     }
     
     /**
